@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 30px auto;
+}
+
+div[data-widget='filter-widget'] {
+  margin-bottom: 15px;
+}
+
+.add-form-input {
+
+  width: 320px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 12px;
+
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+
+.radio-link {
+  background-image: url("../img/circle.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+
+}
+
+.pinned .radio-link {
+  background-image: url("../img/check.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 24px;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
